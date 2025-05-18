@@ -2,9 +2,6 @@
 # ✋ AI Virtual Mouse Controller using Hand Gestures
 
 This project uses computer vision and hand tracking to turn your hand into a virtual mouse! With just a webcam and your hand, you can move the cursor, click, scroll, drag, and even zoom — completely touch-free.
-
-![Screenshot](image.png)
-
 ---
 
 ## 🚀 Features
