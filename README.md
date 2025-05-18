@@ -57,12 +57,6 @@ This project uses computer vision and hand tracking to turn your hand into a vir
 
 ---
 
-## 🤝 Contributing
-
-Pull requests are welcome! If you'd like to improve gesture detection or add more features, feel free to fork and contribute.
-
----
-
 ## 📄 License
 
 This project is licensed under the **MIT License** 
