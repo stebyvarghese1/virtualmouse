@@ -80,7 +80,8 @@ This project uses computer vision and hand tracking to turn your hand into a vir
 
 ## 📸 Screenshot
 
-![Hand Tracking Demo](image.png)
+![Hand Tracking Demo](https://github.com/user-attachments/assets/c9a7a979-5735-4234-8d5b-2c924e0d346c)
+
 
 ---
 
