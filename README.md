@@ -35,31 +35,6 @@ This project uses computer vision and hand tracking to turn your hand into a vir
 
 ---
 
-## ⚙️ How to Run
-
-1. **Clone the repository:**
-
-   ```bash
-   git clone https://github.com/yourusername/virtual-mouse.git
-   cd virtual-mouse
-   ```
-
-2. **Install the required packages:**
-
-   ```bash
-   pip install opencv-python mediapipe pyautogui
-   ```
-
-3. **Run the application:**
-
-   ```bash
-   python mouse.py
-   ```
-
-4. **Grant screen control permission** (if needed, especially on macOS).
-
----
-
 ## 🎯 Gestures Guide
 
 | Gesture                            | Action             |
