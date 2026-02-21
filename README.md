@@ -1,92 +1,152 @@
+<div align="center">
 
-# ✋ AI Virtual Mouse using Hand Gestures
+# ✋ AI Virtual Mouse  
+### Control Your Computer with Hand Gestures
 
-This project uses computer vision and hand tracking to turn your hand into a virtual mouse! With just a webcam and your hand, you can move the cursor, click, scroll, drag, and even zoom — completely touch-free.
----
+<img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python">
+<img src="https://img.shields.io/badge/OpenCV-Computer%20Vision-green?style=for-the-badge&logo=opencv">
+<img src="https://img.shields.io/badge/MediaPipe-Hand%20Tracking-orange?style=for-the-badge">
+<img src="https://img.shields.io/badge/License-MIT-purple?style=for-the-badge">
 
-## 🚀 Features
+<br>
+Transform your webcam into a powerful touch-free mouse using AI-powered hand tracking.
+<br><br>
 
-- 📹 Real-time hand tracking using MediaPipe
-- 🖱️ Move cursor with index finger
-- 👆 Click, right-click, and double-click using finger gestures
-- 🖱️ Drag and drop using all fingers
-- 🔍 Zoom in/out using pinch gestures
-- 🔃 Scroll using specific finger poses
-
----
-
-## 🛠️ Built With
-
-- [Python 3](https://www.python.org/)
-- [MediaPipe](https://google.github.io/mediapipe/)
-- [OpenCV](https://opencv.org/)
-- [PyAutoGUI](https://pyautogui.readthedocs.io/en/latest/)
+</div>
 
 ---
 
-## 📁 Project Structure
+## 🎬 Preview
+
+<div align="center">
+<img src="https://github.com/user-attachments/assets/c9a7a979-5735-4234-8d5b-2c924e0d346c" width="80%">
+</div>
+
+---
+
+## 🚀 Overview
+
+AI Virtual Mouse enables real-time cursor control using hand gestures.  
+It detects finger positions, interprets gestures, and performs mouse actions — all without touching a physical device.
+
+Perfect for:
+- Human-Computer Interaction experiments
+- Touchless systems
+- Smart workspace setups
+- AI/Computer Vision learning projects
+
+---
+
+## ✨ Core Features
+
+| Feature | Description |
+|----------|------------|
+| 🎯 Cursor Control | Move mouse with index finger |
+| 👆 Smart Clicks | Left, right & double-click gestures |
+| ✊ Drag & Drop | Full-hand gesture control |
+| 🔍 Zoom Support | Pinch-based zoom in/out |
+| 🔃 Scrolling | Gesture-based scrolling |
+| ⚡ Real-Time | Low-latency performance |
+
+---
+
+## 🧠 How It Works
+
+1. Webcam captures video frames.
+2. MediaPipe detects 21 hand landmarks.
+3. Finger state logic determines gestures.
+4. PyAutoGUI converts gestures into system mouse actions.
+5. OpenCV handles video processing & visualization.
+
+---
+
+## 🛠️ Technology Stack
+
+- **Python 3**
+- **MediaPipe** (Hand Landmark Detection)
+- **OpenCV** (Image Processing)
+- **PyAutoGUI** (System Control Automation)
+
+---
+
+## 📂 Project Structure
 
 ```
 .
-├── mouse.py            # Main app for virtual mouse
-├── controller.py       # Gesture controller logic
-├── image.png           # Screenshot of app in action
+├── mouse.py          # Main application
+├── controller.py     # Gesture recognition logic
+├── image.png         # Demo screenshot
+└── README.md
 ```
 
 ---
 
-## 🎯 Gestures Guide
+## ⚙️ Installation
 
-| Gesture                            | Action             |
-|------------------------------------|--------------------|
-| Index finger up                    | Move cursor        |
-| Index + Thumb pinch                | Left click         |
-| Middle + Thumb pinch               | Right click        |
-| Ring + Thumb pinch                 | Double click       |
-| All fingers down                   | Drag               |
-| Index up + Thumb down              | Freeze cursor      |
-| Index down + Pinky up              | Scroll up/down     |
-| Pinch index + middle fingers       | Zoom in/out        |
+### 1️⃣ Clone Repository
+```bash
+git clone https://github.com/stebyvarghese1/virtualmouse.git
+cd virtualmouse
+```
+
+### 2️⃣ Install Dependencies
+```bash
+pip install opencv-python mediapipe pyautogui
+```
+
+### 3️⃣ Run Application
+```bash
+python mouse.py
+```
+
+Make sure your webcam is connected and enabled.
 
 ---
 
-## 📸 Screenshot
+## 🎯 Gesture Control Guide
 
-![Hand Tracking Demo](https://github.com/user-attachments/assets/c9a7a979-5735-4234-8d5b-2c924e0d346c)
+| Gesture | Action |
+|----------|--------|
+| Index finger up | Move cursor |
+| Index + Thumb pinch | Left click |
+| Middle + Thumb pinch | Right click |
+| Ring + Thumb pinch | Double click |
+| All fingers down | Drag |
+| Index up + Thumb down | Freeze cursor |
+| Index down + Pinky up | Scroll |
+| Index + Middle pinch | Zoom |
 
+---
+
+## 📈 Future Enhancements
+
+- Multi-hand support
+- Custom gesture configuration
+- Adjustable sensitivity
+- GUI-based control panel
+- Performance optimization
+- Cross-platform gesture presets
 
 ---
 
 ## 📄 License
 
-This project is licensed under the **MIT License** 
-
-MIT License
-
-Copyright (c) 2024 Steby Varghese
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
+This project is licensed under the MIT License.
 
 ---
 
-## 💡 Credits
+## 🙌 Acknowledgments
 
-- Powered by [Google MediaPipe](https://google.github.io/mediapipe/)
-- Inspired by human-computer interaction via gestures
+- MediaPipe by Google
+- OpenCV Community
+- PyAutoGUI Contributors
+
+---
+
+<div align="center">
+
+### ⭐ If you like this project, consider giving it a star!
+
+Built with passion for AI & Computer Vision.
+
+</div>
