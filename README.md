@@ -1,6 +1,6 @@
 <div align="center">
 
-# ✋ AI Virtual Mouse  
+# ✋ Virtual Mouse  
 ### Control Your Computer with Hand Gestures
 
 <img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python">
@@ -26,7 +26,7 @@ Transform your webcam into a powerful touch-free mouse using AI-powered hand tra
 
 ## 🚀 Overview
 
-AI Virtual Mouse enables real-time cursor control using hand gestures.  
+Virtual Mouse enables real-time cursor control using hand gestures.  
 It detects finger positions, interprets gestures, and performs mouse actions — all without touching a physical device.
 
 Perfect for:
